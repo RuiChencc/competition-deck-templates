@@ -1,0 +1,143 @@
+{
+  "meta": {
+    "project_name": "CandleMind",
+    "slogan": "面向主观交易者的价格行为 AI 辅助决策工具",
+    "team": "RuiChencc",
+    "school": "中国科学技术大学",
+    "tech_stack": ["Python", "FastAPI", "yfinance", "AkShare", "visualization-mcp"],
+    "date": "2026-10-05"
+  },
+  "pages": [
+    {
+      "page": 1,
+      "title": "封面",
+      "takeaway": "项目定位",
+      "content": {
+        "project_name": "CandleMind",
+        "slogan": "面向主观交易者的价格行为 AI 辅助决策工具",
+        "subtitle": "RuiChencc | 中国科学技术大学",
+        "date": "2026-10-05"
+      }
+    },
+    {
+      "page": 2,
+      "title": "目录",
+      "takeaway": "讲述逻辑",
+      "content": {
+        "sections": ["问题", "方案", "演示", "前景", "团队"]
+      }
+    },
+    {
+      "page": 3,
+      "title": "问题定义",
+      "takeaway": "用户痛点严重",
+      "content": {
+        "pain_point_data": "73% 主观交易者依赖直觉决策，胜率低于 50%",
+        "user_story": "交易者每天看盘 4 小时，但缺乏结构化的技术分析工具",
+        "existing_defects": [
+          "传统技术指标滞后，无法捕捉价格行为特征",
+          "截图识图工具无法生成可执行决策",
+          "开源工具缺乏决策树可视化"
+        ]
+      }
+    },
+    {
+      "page": 4,
+      "title": "解决方案概述",
+      "takeaway": "我们如何解决",
+      "content": {
+        "architecture": "yfinance/AkShare → 数据清洗 → 技术分析 → 决策树生成 → 可视化",
+        "kpi": [
+          "决策生成时间 < 2 秒",
+          "支持 3 种数据源（MT5/TradingView/yfinance）",
+          "决策树准确率 > 85%"
+        ]
+      }
+    },
+    {
+      "page": 5,
+      "title": "核心功能 1：K 线分析",
+      "takeaway": "核心能力 1",
+      "content": {
+        "feature_name": "实时 K 线分析",
+        "screenshot": "examples/sample-project-1/kline_screenshot.png",
+        "data": "延迟 < 100ms，支持 A 股红涨绿跌"
+      }
+    },
+    {
+      "page": 6,
+      "title": "核心功能 2：决策树生成",
+      "takeaway": "核心能力 2",
+      "content": {
+        "feature_name": "AI 决策树生成",
+        "screenshot": "examples/sample-project-1/decision_tree_screenshot.png",
+        "data": "支持 5 种决策模式，准确率 > 85%"
+      }
+    },
+    {
+      "page": 7,
+      "title": "技术亮点",
+      "takeaway": "差异化技术",
+      "content": {
+        "innovations": [
+          "自研价格行为识别算法（非传统技术指标）",
+          "决策树可视化（BFS 布局 + 高亮路径）",
+          "多数据源统一接口（MT5/TradingView/yfinance）"
+        ]
+      }
+    },
+    {
+      "page": 8,
+      "title": "差异化对比",
+      "takeaway": "我们更强",
+      "content": {
+        "comparison": [
+          {"feature": "数据源", "us": "MT5/TradingView/yfinance", "competitor_a": "仅 yfinance", "competitor_b": "仅 MT5"},
+          {"feature": "决策树", "us": "支持可视化", "competitor_a": "不支持", "competitor_b": "不支持"},
+          {"feature": "K 线渲染", "us": "A 股红涨绿跌", "competitor_a": "默认配色", "competitor_b": "默认配色"}
+        ],
+        "moat": "自研价格行为识别算法 + 决策树可视化，竞品无法复制"
+      }
+    },
+    {
+      "page": 9,
+      "title": "演示 / 实证",
+      "takeaway": "已验证",
+      "content": {
+        "screenshots": ["examples/sample-project-1/kline_screenshot.png", "examples/sample-project-1/decision_tree_screenshot.png"],
+        "results": "已验证 3 个真实交易场景，决策准确率 > 85%"
+      }
+    },
+    {
+      "page": 10,
+      "title": "商业化 / 应用前景",
+      "takeaway": "可商业化",
+      "content": {
+        "tam": "全球主观交易者市场 500 亿美元",
+        "sam": "中国主观交易者市场 100 亿美元",
+        "som": "目标市场 1 亿美元（前 3 年）",
+        "business_model": "Freemium（基础功能免费，高级功能订阅）",
+        "roadmap": {
+          "3_months": "开源 v0.2.0，支持 K 线 + 决策树",
+          "6_months": "发布 v1.0.0，支持 MT5/TradingView 集成",
+          "12_months": "商业化，支持付费订阅"
+        }
+      }
+    },
+    {
+      "page": 11,
+      "title": "团队 / 联系",
+      "takeaway": "可联系",
+      "content": {
+        "team": [
+          {"name": "RuiChencc", "role": "CEO / 技术负责人", "avatar": "examples/sample-project-1/avatar_rui.png"}
+        ],
+        "contact": {
+          "github": "https://github.com/RuiChencc",
+          "email": "ruichencc@example.com",
+          "wechat": "examples/sample-project-1/wechat_qr.png"
+        }
+      }
+    }
+  ]
+}
